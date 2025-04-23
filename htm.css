@@ -98,8 +98,8 @@ html, body {
 
 .contact{
     padding: 0;
-    height:50px;
-    width: 500px;
+    height:90px;
+    width: 400px;
     
 }
 
@@ -119,46 +119,43 @@ html, body {
     font-size: 16px;
 }
 
-.contact .links .logo{
-    margin-left:6px;
-    margin-top: 2px;
-}
 
-.contact .links :hover{
-    color: rgb(0, 123, 255);
-     
-}
 
 .contact .links span {
-    margin: 0 10px; /* spacing between links */
+    margin: 0 5px; /* spacing between links */
 }
 
-.link {
+.links .link {
     display: flex;                /* Enable flexbox */
     align-items: center;          /* Vertically align items */
     justify-content: center; 
     font-weight: bold;
-    background-color: #1282d2;
     text-align: center;
     padding: 1px 12px;
     border-radius: 8px;
     text-decoration: none;
     color: rgb(255, 255, 255);
     transition: background-color 0.3s ease;
+    margin:0;
     
 }
 
-.link .logo {
-    margin-left: 5px;
+.links .link .logo {
+    color: rgb(0, 166, 255);
+    margin-left: 2px;
     margin-right:2px; /* Space between text and symbol */
 }
 
 
-.link:hover {
-    background-color: #00ff08;
+.links .link:hover {
+    color: #00ff08;
+    
    
 }
-
+.links .link .logo:hover{
+    color: rgb(0, 110, 255);
+    
+}
 
 
 .blog{
