@@ -199,6 +199,7 @@ html, body {
     overflow: hidden;
     border-radius: 8px;
     border: 1px solid #3F3F46;
+    background: linear-gradient(135deg, #383838, #6e6e6e, #383838);
 }
 
 .blog .photo img {
